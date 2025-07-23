@@ -1,0 +1,203 @@
+*{
+
+    margin:0;
+    padding:0;
+   
+}
+
+.container{
+
+    width: 100%;
+   
+    height: 600px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .salat{
+
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   padding: 15px;
+   border-radius: 7px;
+   background-color:  rgb(2, 4, 112);
+
+} 
+.container .salat h3{
+
+    width: 100%;
+    height: 40px;
+    background-color:  rgb(48, 51, 212);
+    position: absolute;
+    text-align: center;
+    top:0;
+    color: aliceblue;
+    margin-top: 7px;
+   
+}
+.container .salat h4{
+ position: absolute;
+top:65px;
+ font-size: 30px;
+}
+
+.container .salat::before{
+
+    content: '';
+    width: 100%;
+    height: 7px;
+    background-color:  rgb(48, 51, 212);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    border-radius: 150px;
+
+}
+.a{
+
+display: flex;
+flex-direction: column;
+text-align: center;
+
+width: 20%;
+position: absolute;
+right: 40px;
+top: 120px;
+gap: 50px;
+}
+.a .e h2{
+
+    font-size:80px;
+    color: rgb(48, 51, 212);
+    position: relative;
+    right:30px;
+
+}
+.a .r h5{
+    
+    font-size: 30px;
+    color:   rgb(48, 51, 212);
+    position: relative;
+    bottom: 30px;
+    right: -20px;
+}
+
+
+
+
+.a .r h5:after{
+    content: "";
+    width: 1580px;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(48, 51, 212);
+    right: 0;
+    bottom: -10px;
+}
+.selecet {
+   
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+
+}
+.selecet select{
+
+    width:300px;
+    background-color: blue;
+    background-color: rgba(48, 51, 212, 0.432);
+    height: 30px;
+  text-align: center;
+  font-size: 25px;
+color: white;
+margin-bottom: 30px;
+position: relative;
+bottom: 150px;
+}
+.selecet select:hover{
+
+    background-color:rgb(48, 51, 212) ;
+    cursor: pointer;
+}
+.eeee{
+
+  margin: 0 auto;
+    position: relative;
+    top: -120px;
+}
+
+.eeee select {
+
+    
+    width:300px;
+    background-color: rgb(8, 44, 143);
+    height: 30px;
+  text-align: center;
+  font-size: 25px;
+color: white;
+}
+.salat h4{
+    color: white;
+}
+
+h2 , h5 , h3 , h1 ة select{
+
+ animation-name: chang-aksour-color ;
+ animation-duration: 7s ;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes chang-aksour-color {
+
+    0% {
+
+      color: rgb(7, 9, 151);
+    }
+    50%{
+          color: rgb(42, 45, 211)
+
+    }
+
+    60%{
+           color:rgb(103, 182, 129);
+
+    }
+    80%{
+             color:rgb(115, 202, 89)
+
+    }
+
+   100%{
+           color: rgb(48, 51, 212)
+    
+    }
+}
+
+.illizi{
+
+    
+    width: 90%;
+    position: relative;
+    top: 70px;
+    left: 70px;
+    font-size: 40px;
+}
+.illizi h5 {
+
+    position: absolute;
+    left: 20px;
+    top: 85px;
+}
